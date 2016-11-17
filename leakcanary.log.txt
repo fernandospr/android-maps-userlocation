@@ -1,0 +1,151 @@
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: In com.fernandospr.mapsapplication:1.0:1.
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * com.fernandospr.mapsapplication.NewApiActivity has leaked:
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * GC ROOT com.google.android.gms.location.internal.zzd$zzb.EW
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * references com.google.android.gms.location.internal.zzd$1.akK (anonymous subclass of com.google.android.gms.location.internal.zzd$zza)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * leaks com.fernandospr.mapsapplication.NewApiActivity instance
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Retaining: 0.97 MB.
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Reference Key: 1339abe0-8446-41f6-8412-19ff40d00c6e
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Device: motorola motorola XT1097 victara_retar
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Android Version: 6.0 API: 23 LeakCanary: 1.5 00f37f5
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Durations: watch=5067ms, gc=156ms, heap dump=3374ms, analysis=37829ms
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Details:
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Instance of com.google.android.gms.location.internal.zzd$zzb
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   EW = com.google.android.gms.location.internal.zzd$1@314777280 (0x12c31ec0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDescriptor = java.lang.String@321364352 (0x1327a180)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mObject = -1171495192
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mOwner = com.google.android.gms.location.internal.zzd$zzb@316914496 (0x12e3bb40)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_klass_ = com.google.android.gms.location.internal.zzd$zzb
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_monitor_ = 0
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Instance of com.google.android.gms.location.internal.zzd$1
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   akJ = com.google.android.gms.location.LocationRequest@315077440 (0x12c7b340)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   akK = com.fernandospr.mapsapplication.NewApiActivity@314705568 (0x12c206a0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   akL = com.google.android.gms.location.internal.zzd@316063952 (0x12d6c0d0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   vS = com.google.android.gms.common.api.Api@316164640 (0x12d84a20)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yy = com.google.android.gms.common.api.Api$zzf@316063920 (0x12d6c0b0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   xV = com.google.android.gms.common.api.Status@316190112 (0x12d8ada0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yH = java.lang.Object@318548128 (0x12fca8a0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yI = com.google.android.gms.internal.zzqq$zza@316912320 (0x12e3b2c0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yJ = java.lang.ref.WeakReference@316912416 (0x12e3b320)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yK = java.util.ArrayList@316912192 (0x12e3b240)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yL = null
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yM = java.util.concurrent.atomic.AtomicReference@318548208 (0x12fca8f0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yN = null
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yO = false
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yP = false
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yQ = null
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yR = null
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   yS = false
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   zzak = true
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   zzank = java.util.concurrent.CountDownLatch@318548192 (0x12fca8e0)
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_klass_ = com.google.android.gms.location.internal.zzd$1
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_monitor_ = -2111015276
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Instance of com.fernandospr.mapsapplication.NewApiActivity
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static UPDATE_INTERVAL_IN_MILLISECONDS = 10000
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = 5000
+11-17 16:51:46.476 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static serialVersionUID = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static $staticOverhead = byte[40]@319033345 (0x13041001)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static TAG = java.lang.String@319252944 (0x130769d0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   static $change = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mGoogleApiClient = com.google.android.gms.internal.zzrd@314833488 (0x12c3fa50)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mLocationRequest = com.google.android.gms.location.LocationRequest@315077440 (0x12c7b340)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mMap = com.google.android.gms.maps.GoogleMap@316920560 (0x12e3d2f0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mRequestingLocationUpdates = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStartButton = android.support.v7.widget.AppCompatButton@322224128 (0x1334c000)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStopButton = android.support.v7.widget.AppCompatButton@322225152 (0x1334c400)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDelegate = android.support.v7.app.AppCompatDelegateImplV23@319263056 (0x13079150)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mEatKeyUpEvent = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResources = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mThemeId = 2131361950
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mCreated = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mFragments = android.support.v4.app.FragmentController@319106752 (0x13052ec0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mHandler = android.support.v4.app.FragmentActivity$1@319304224 (0x13083220)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mMediaController = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mNextCandidateRequestIndex = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mOptionsMenuInvalidated = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mPendingFragmentActivityResults = android.support.v4.util.SparseArrayCompat@319305024 (0x13083540)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mReallyStopped = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mRequestedPermissionsFromFragment = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResumed = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mRetaining = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStopped = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStartedActivityFromFragment = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStartedIntentSenderFromFragment = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mActionBar = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mActionModeTypeStarting = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mActivityInfo = android.content.pm.ActivityInfo@315131776 (0x12c88780)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mActivityTransitionState = android.app.ActivityTransitionState@319278208 (0x1307cc80)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mApplication = com.fernandospr.mapsapplication.MyApplication@316122272 (0x12d7a4a0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mCalled = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mChangeCanvasToTranslucent = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mChangingConfigurations = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mComponent = android.content.ComponentName@316104912 (0x12d760d0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mConfigChangeFlags = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mCurrentConfig = android.content.res.Configuration@319248976 (0x13075a50)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDecor = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDefaultKeyMode = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDefaultKeySsb = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDestroyed = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mDoReportFullyDrawn = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mEmbeddedID = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mEnableDefaultActionBarUp = false
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mEnterTransitionListener = android.app.SharedElementCallback$1@1868762136 (0x6f630c18)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mExitTransitionListener = android.app.SharedElementCallback$1@1868762136 (0x6f630c18)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mFinished = true
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mFragments = android.app.FragmentController@319106704 (0x13052e90)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mHandler = android.os.Handler@319304128 (0x130831c0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mIdent = 145501368
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mInstanceTracker = android.os.StrictMode$InstanceTracker@319106720 (0x13052ea0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mInstrumentation = android.app.Instrumentation@315099984 (0x12c80b50)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mIntent = android.content.Intent@315138368 (0x12c8a140)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mLastNonConfigurationInstances = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mMainThread = android.app.ActivityThread@314920384 (0x12c54dc0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mManagedCursors = java.util.ArrayList@319304160 (0x130831e0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mManagedDialogs = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mMenuInflater = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mParent = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mReferrer = java.lang.String@315127456 (0x12c876a0)
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResultCode = 0
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResultData = null
+11-17 16:51:46.477 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResumed = false
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mSearchEvent = null
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mSearchManager = null
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStartedActivity = false
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mStopped = true
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTemporaryPause = false
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTitle = java.lang.String@317049152 (0x12e5c940)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTitleColor = 0
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTitleReady = true
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mToken = android.os.BinderProxy@314975424 (0x12c624c0)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTranslucentCallback = null
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mUiThread = java.lang.Thread@1932227232 (0x732b72a0)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mVisibleBehind = false
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mVisibleFromClient = true
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mVisibleFromServer = true
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mVoiceInteractor = null
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mWindow = com.android.internal.policy.PhoneWindow@318046016 (0x12f4ff40)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mWindowAdded = true
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mWindowManager = android.view.WindowManagerImpl@319304640 (0x130833c0)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mInflater = com.android.internal.policy.PhoneLayoutInflater@319253328 (0x13076b50)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mOverrideConfiguration = null
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mResources = android.content.res.Resources@315099824 (0x12c80ab0)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mTheme = android.content.res.Resources$Theme@319304672 (0x130833e0)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mThemeResource = 2131361950
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   mBase = android.app.ContextImpl@319187968 (0x13066c00)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_klass_ = com.fernandospr.mapsapplication.NewApiActivity
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: |   shadow$_monitor_ = -1946671732
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: * Excluded Refs:
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.view.inputmethod.InputMethodManager.mNextServedView
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.view.inputmethod.InputMethodManager.mServedView
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.view.inputmethod.InputMethodManager.mServedInputConnection
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.view.inputmethod.InputMethodManager.mCurRootView
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.os.UserManager.mContext
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.net.ConnectivityManager.sInstance
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Field: android.view.Choreographer$FrameDisplayEventReceiver.mMessageQueue (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Thread:FinalizerWatchdogDaemon (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Thread:main (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Thread:LeakCanary-Heap-Dump (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Class:java.lang.ref.WeakReference (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Class:java.lang.ref.SoftReference (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Class:java.lang.ref.PhantomReference (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Class:java.lang.ref.Finalizer (always)
+11-17 16:51:46.478 20615-22126/com.fernandospr.mapsapplication D/LeakCanary: | Class:java.lang.ref.FinalizerReference (always)
