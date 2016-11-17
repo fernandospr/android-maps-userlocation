@@ -7,7 +7,7 @@ Includes two ways of getting the current user location:
 
 #### Usage ####
 
-To start the app, first you will need an Android key and place it in `google_maps_api.xml`.
+To start the app, first you will need a [Google Maps API key](https://developers.google.com/maps/documentation/android-api/start?hl=en#step_4_get_a_google_maps_api_key)  and place it in `google_maps_api.xml`.
 
 After starting the app, choose the desired approach to obtain the user location.
 
