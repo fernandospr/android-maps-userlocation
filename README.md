@@ -27,6 +27,8 @@ To reproduce:
 4. Press back twice to exit the app
 5. Wait for LeakCanary to show the leak
 
+See the [LeakCanary log](https://raw.githubusercontent.com/fernandospr/android-maps-userlocation/master/leakcanary.log.txt).
+
 Bug reports:
 
 * https://code.google.com/p/android/issues/detail?id=227856
