@@ -17,7 +17,7 @@ The project also demonstrates a leak using the first approach.
 
 To detect memory leaks, I'm using [LeakCanary](https://github.com/square/leakcanary).
 
-LeakCanary detects a memory leak after calling LocationServices.FusedLocationApi.requestLocationUpdates.
+LeakCanary detects a memory leak after calling `LocationServices.FusedLocationApi.requestLocationUpdates` and destroying the Activity.
 
 To reproduce:
 
@@ -29,6 +29,6 @@ To reproduce:
 
 Bug reports:
 
-https://code.google.com/p/android/issues/detail?id=227856
+* https://code.google.com/p/android/issues/detail?id=227856
 
-https://github.com/googlesamples/android-play-location/issues/26
+* https://github.com/googlesamples/android-play-location/issues/26
