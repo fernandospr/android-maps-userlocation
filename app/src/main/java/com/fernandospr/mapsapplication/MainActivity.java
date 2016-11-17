@@ -12,11 +12,30 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private static final int PERMISSIONS_REQUEST_FINE_LOCATION = 123;
+    private Button mStopButton;
+    private Button mStartButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mStopButton = (Button) findViewById(R.id.deprecatedButton);
+        mStartButton = (Button) findViewById(R.id.newApiButton);
+        mStopButton.setVisibility(View.GONE);
+        mStartButton.setVisibility(View.GONE);
+        mStopButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DeprecatedApiActivity.class));
+            }
+        });
+        mStartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NewApiActivity.class));
+            }
+        });
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             showButtons();
@@ -35,19 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showButtons() {
-        Button stopButton = (Button) findViewById(R.id.deprecatedButton);
-        stopButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, DeprecatedApiActivity.class));
-            }
-        });
-        Button startButton = (Button) findViewById(R.id.newApiButton);
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, NewApiActivity.class));
-            }
-        });
+        mStopButton.setVisibility(View.VISIBLE);
+        mStartButton.setVisibility(View.VISIBLE);
     }
 }
