@@ -15,7 +15,7 @@ After starting the app, choose the desired approach to obtain the user location.
 
 The project also demonstrates a leak using the first approach. 
 
-To detect memory leaks, I'm using [LeakCanary](https://github.com/square/leakcanary).
+I'm using [LeakCanary](https://github.com/square/leakcanary) to detect memory leaks.
 
 LeakCanary detects a memory leak after calling `LocationServices.FusedLocationApi.requestLocationUpdates` and destroying the Activity.
 
